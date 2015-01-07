@@ -2,6 +2,8 @@
 
 Chrome extension to automatically navigate to GA Tech OMSCS Classes
 
+![screenshot](https://github.com/jotielim/gatechomscsclass/blob/master/app/images/screenshot.png)
+
 Prerequisites: node.js, npm
 
 ### To use:
