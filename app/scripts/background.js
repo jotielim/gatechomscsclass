@@ -93,9 +93,9 @@ var advanceSearch = function (tab) {
  * On browser icon clicked
  */
 chrome.browserAction.onClicked.addListener(function (tab) {
-  if (tab.url.indexOf('http://buzzport.gatech.edu') !== -1) {
+  if (tab.url.indexOf('buzzport.gatech.edu') !== -1) {
     studentTab(tab);
-  } else if (tab.url.indexOf('https://oscar.gatech.edu') !== -1) {
+  } else if (tab.url.indexOf('oscar.gatech.edu') !== -1) {
     lookupClass(tab);
   }
 });
